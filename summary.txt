@@ -1,0 +1,12 @@
+Findings processed: 8
+
+AUTO_REMEDIATE: 3
+NEEDS_APPROVAL: 2
+SKIP: 1
+IGNORE: 2
+
+Needs human review:
+- F-1001 (prod-customer-exports): resource is marked critical
+- F-1006 (analytics-scratch): low confidence (0.62)
+
+Mode: DRY RUN (no changes made)

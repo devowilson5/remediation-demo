@@ -1,0 +1,19 @@
+To: alice@example.com
+Re: F-1001 on prod-customer-exports (production)
+Action: NEEDS_APPROVAL. Reason: resource is marked critical.
+
+To: bob@example.com
+Re: F-1002 on dev-test-uploads (development)
+Action: AUTO_REMEDIATE. Reason: public + sensitive + high confidence + not critical.
+
+To: frank@example.com
+Re: F-1006 on analytics-scratch (development)
+Action: NEEDS_APPROVAL. Reason: low confidence (0.62).
+
+To: grace@example.com
+Re: F-1007 on partner-share (production)
+Action: AUTO_REMEDIATE. Reason: public + sensitive + high confidence + not critical.
+
+To: heidi@example.com
+Re: F-1008 on qa-snapshots (staging)
+Action: AUTO_REMEDIATE. Reason: public + sensitive + high confidence + not critical.

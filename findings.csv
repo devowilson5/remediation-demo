@@ -1,0 +1,9 @@
+finding_id,resource,environment,exposure,data_type,confidence,owner,critical
+F-1001,prod-customer-exports,production,public,PII,0.97,alice@example.com,yes
+F-1002,dev-test-uploads,development,public,PCI,0.95,bob@example.com,no
+F-1003,hr-archive,production,private,PHI,0.99,carol@example.com,no
+F-1004,marketing-assets,production,public,MARKETING,0.99,dan@example.com,no
+F-1005,legacy-reports,staging,public,PII,0.96,erin@example.com,no
+F-1006,analytics-scratch,development,public,PII,0.62,frank@example.com,no
+F-1007,partner-share,production,public,PHI,0.93,grace@example.com,no
+F-1008,qa-snapshots,staging,public,PCI,0.91,heidi@example.com,no

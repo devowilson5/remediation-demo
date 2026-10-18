@@ -1,0 +1,9 @@
+timestamp,finding_id,resource,action,reason,result,dry_run
+2026-10-18T19:50:15+00:00,F-1001,prod-customer-exports,NEEDS_APPROVAL,resource is marked critical,ticket needed: waiting for human approval,True
+2026-10-18T19:50:15+00:00,F-1002,dev-test-uploads,AUTO_REMEDIATE,public + sensitive + high confidence + not critical,DRY RUN: would remove public access on dev-test-uploads; verification skipped (dry run),True
+2026-10-18T19:50:15+00:00,F-1003,hr-archive,IGNORE,not publicly exposed,no action,True
+2026-10-18T19:50:15+00:00,F-1004,marketing-assets,IGNORE,data type is not sensitive,no action,True
+2026-10-18T19:50:15+00:00,F-1005,legacy-reports,SKIP,on approved-exceptions list,no action,True
+2026-10-18T19:50:15+00:00,F-1006,analytics-scratch,NEEDS_APPROVAL,low confidence (0.62),ticket needed: waiting for human approval,True
+2026-10-18T19:50:15+00:00,F-1007,partner-share,AUTO_REMEDIATE,public + sensitive + high confidence + not critical,DRY RUN: would remove public access on partner-share; verification skipped (dry run),True
+2026-10-18T19:50:15+00:00,F-1008,qa-snapshots,AUTO_REMEDIATE,public + sensitive + high confidence + not critical,DRY RUN: would remove public access on qa-snapshots; verification skipped (dry run),True
